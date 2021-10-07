@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.dessert-row > img {
+  width: 100%;
+}
+
+.man-container1 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.man-container2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.man-container3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.veg-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.meat-col,
+.milk-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.seperator {
+  background-color: #19aec2;
+  color: white;
+  height: fit-content;
+  padding: 5px 25px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.seperator > p {
+  margin: 0;
+}
+
+.yellow-text {
+  color: #fdc00f;
+  font-weight: 700;
+}
+
+.obs-head {
+  color: #19aec2;
+  font-weight: 700;
+}
+
+.obs-row {
+  margin-bottom: 15px;
+}
+
+.stats h2 {
+  color: #375d74;
+  font-weight: 700;
+}
+
+.stats p {
+  color: #19aec2;
+  font-weight: 600;
+}
+
+.stats-2 {
+  text-align: right;
+}
+
+.stats-2 h2 {
+  color: #375d74;
+  font-weight: 700;
+}
+
+.stats-2 h5 {
+  color: #19aec2;
+}
+
+.stats-side > div {
+  margin-bottom: 15px;
+}
+
+.stats-side-perc {
+  text-align: center;
+}
+
+.stats-side-perc > h4 {
+  margin-bottom: 1px;
+}
+
+.stats-side-perc > h2 {
+  color: #375d74;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.man-1,
+.man-2,
+.man-3 {
+  display: grid;
+  align-content: center;
+}
+
+.container-obs {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px 35px;
+}
+
+.side-2-head {
+  color: #375d74;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.side-2-hlth-eat {
+  color: #19aec2;
+  text-align: center;
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.side-2-hlth-eat h5 {
+  font-weight: 700;
+}
+
+.yellow-stat {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.side-2-effect {
+  color: #19aec2;
+}
+
+.side-2-effect > h3 {
+  color: #375d74;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 650px) {
+  .col-1-border {
+    padding-right: 40px;
+  }
+
+  .col-2-border {
+    border-left: dashed 2px #19aec2;
+    padding-left: 40px;
+  }
+}
