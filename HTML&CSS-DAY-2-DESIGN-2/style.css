@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: #303e47;
+}
+
+.yellow {
+  background-color: #ff9e1b;
+}
+
+.blue {
+  background-color: #00b2e2;
+}
+
+.red {
+  background-color: #ff5959;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo > img {
+  background-color: #00b2e2;
+  border: solid 4px white;
+  border-radius: 50%;
+  width: 50%;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.logo-text > h2 {
+  color: #ff5959;
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.logo-text > h5 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+span {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.span-main {
+  display: block;
+}
+
+.span-md {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.span-sm {
+  font-size: 18px;
+}
+
+img {
+  width: 25%;
+}
+
+.logo-row {
+  margin-bottom: 70px !important;
+}
+
+.row {
+  margin-bottom: 35px;
+}
+
+.obs-row {
+  margin-bottom: 0px;
+}
+
+.container-outline {
+  padding: 40px;
+  max-width: 900px;
+}
+
+.box {
+  padding: 35px;
+}
+
+.box > div > h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.content-justify {
+  text-align: justify;
+}
+
+.activity-box > h5 {
+  margin-bottom: 30px;
+}
+
+.activity-box > p {
+  line-height: 2rem;
+}
+
+.cause-div {
+  margin-bottom: 15px;
+}
+
+.cause-div > div > img {
+  width: 60%;
+}
+
+.stat-box > img {
+  width: 100%;
+}
+
+.child-pic {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 650px) {
+  .box > div > h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+
+  .container-outline {
+    padding: 25px;
+  }
+
+  .logo {
+    justify-content: flex-end;
+  }
+
+  .logo-text > h2 {
+    color: #ff5959;
+    font-size: 65px;
+  }
+
+  .logo-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0px;
+  }
+
+  .logo > img {
+    background-color: #00b2e2;
+    border: solid 4px white;
+    border-radius: 50%;
+    width: 30%;
+  }
+
+  .cause-div {
+    margin-bottom: 35px;
+  }
+}
